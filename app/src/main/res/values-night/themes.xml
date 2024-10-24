@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.YoutubeVideoSaver" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="bottomNavigationStyle">@style/bottom_navigation_view</item>
+        <item name="android:buttonStyle">@style/custom_buttons</item>
+        <item name="android:textViewStyle">@style/custom_textview</item>
+        <item name="switchStyle">@style/custom_switch</item>
+
+    </style>
+
+    <style name="bottom_navigation_view">
+        <item name="background">@color/b_n_b_bg_night</item>
+        <item name="itemRippleColor">@color/red</item>
+        <item name="selectableItemBackground">@color/red</item>
+        <item name="android:textIsSelectable">@color/red</item>
+    </style>
+
+    <style name="custom_buttons">
+        <item name="backgroundTint">@color/red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">10dp</item>
+
+    </style>
+
+    <style name="custom_textview">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="custom_switch">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:thumbTint">@color/red</item>
+    </style>
+
+    <style name="custom_fragment">
+        <item name="android:background">@color/back_bg_night</item>
+    </style>
+</resources>
+

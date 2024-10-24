@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Youtube Video Saver</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="youtube_video_saver">Youtube video saver</string>
+    <string name="general_settings">General settings</string>
+    <string name="drop_the_link">Drop the link</string>
+    <string name="video_title">Video title</string>
+    <string name="or">or</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+</resources>
