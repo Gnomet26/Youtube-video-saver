@@ -67,8 +67,9 @@ class MainActivity : AppCompatActivity() {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if (requestCode == fullPermission.STORAGE_PERMISSION_CODE){
             if(grantResults.isNotEmpty()){
-                grantResults[0] == PackageManager.PERMISSION_GRANTED
+
                 grantResults[1] == PackageManager.PERMISSION_GRANTED
+                grantResults[0] == PackageManager.PERMISSION_GRANTED
 
             }
         }
